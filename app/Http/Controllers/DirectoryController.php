@@ -36,7 +36,7 @@ class DirectoryController extends Controller
     public function create()
     {
         $directorios = DirectoryTipe::get();
-        return view('directory.CreateDirectory', compact('directorios'));
+        return view('auxiliar.CreateDirectory', compact('directorios'));
     }
 
     /**
