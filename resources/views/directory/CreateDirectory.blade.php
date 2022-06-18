@@ -41,7 +41,7 @@
                     </div>
 
                     @error('txtnombres')
-                            <div class="alert alert-danger"><i class="fas fa-exclamation-triangle"></i> Ingrese nombres o nombre comercial</div>
+                            <div class="alert alert-danger"><i class="fas fa-exclamation-triangle"></i> Ingrese nombres o nombre comerciales</div>
                     @enderror
                 </div>
             </div>
